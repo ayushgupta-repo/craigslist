@@ -30,7 +30,8 @@ SECRET_KEY = 'django-insecure-k)7kqww(^qme&i!i)2edw4@81&7k@h+oetcny&e2j)@e#^^4#o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://craigslist-django-application.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
